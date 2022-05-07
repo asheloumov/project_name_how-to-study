@@ -4,7 +4,10 @@
   bottom: 30px;
   width: 338px;
   box-sizing: border-box;
-  z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 3;
   margin: 0;
   padding: 0;
 }

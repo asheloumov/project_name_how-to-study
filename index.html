@@ -28,16 +28,17 @@
     <img src="images/logo.svg" class="logo logo_place_header" alt="здесь должно быть изображение">
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-      <a href="#techniques" class="header__link">Узнать →</a> <!--это будет якорная ссылка на блок техники-->
+      <a href="#techniques" class="header__link">Узнать →</a>
     </p>
     <img src="images/two_again.png" class="header__main-illustration" alt="здесь должно быть изображение">
     <div class="header__square-pic rotation"></div>
   </header>
   <!--Конец блока header - начало основного блока Контент-->
   <main class="content">
+    <!--начало блока description-->
     <div class="description">
       <div class="two-columns">
-        <h2 class="two-columns__brief">Главные проблемы в обучении</h2> <!--в брифе написано использовать тег заголовка - подумать об этом!!!-->
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
           <p class="two-columns__paragraph"><span class= "two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
@@ -45,7 +46,7 @@
         </div>
       </div>
     </div>
-
+    <!--конец блока description, начало блока techniques-->
     <section id="techniques">
       <h2 class="section-title">Техники обучения</h2>
       <h3 class="section-subtitle">Пять практик Барбары Оакли</h3>
@@ -77,12 +78,12 @@
         </div>
       </section>
     </section>
-
+    <!--конец блока techniques, начало блока video-->
     <section class="video">
       <h2 class="section-title">Видео на TED</h2>
       <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
       <div class="video__iframes">
-        <iframe src="https://www.youtube.com/embed/J_89IMS5gJQ" class="video__iframe" width="515" height="316"></iframe> <!--ссылки которые были указаны в брифе, при вставке, выдавали вместо видео - ошибку. Пришлось взять ссылки на видео из кода макета, не знаю, насколько это корректно.Свойство frameborder="0" пришлось удалить и затать отсуствие границ через CSS, т.к. валидатор ругался-->
+        <iframe src="https://www.youtube.com/embed/J_89IMS5gJQ" class="video__iframe" width="515" height="316"></iframe> <!--ссылки которые были указаны в брифе, при вставке, выдавали вместо видео - ошибку. Пришлось взять ссылки на видео из кода макета, не знаю, насколько это корректно. Свойство frameborder="0" пришлось удалить и затать отсуствие границ через CSS, т.к. валидатор ругался-->
         <iframe src="https://www.youtube.com/embed/0u3bccaRmmg" class="video__iframe video__iframe_reverse-margin" width="515" height="316"></iframe>
         <!--добавить ещё свойств которые свойственны фрейму (типа полный экран и т.д. в соответсвие с макетом сайта (посмотреть что на сайте с видео можно делать и сделать также))-->
       </div>

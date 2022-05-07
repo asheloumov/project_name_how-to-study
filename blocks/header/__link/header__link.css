@@ -5,4 +5,11 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #472976;
+  text-decoration: underline;
 }

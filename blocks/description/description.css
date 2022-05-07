@@ -1,14 +1,9 @@
 .description {
-  /*border: 1px solid rgb(255, 0, 0);*/
-  padding-top: 100px;
-  /*padding: 100px auto 100px;*/
-  padding-bottom: 0; 
+  padding: 0;
+  margin: 0;
   background-color: rgba(250, 17, 141, .1);
-  /*height: 600px; /*указал просто, чтоб был размер. Какой размер на самом деле по вертикали - хз. ПОЧИТАТЬ ПРО МАРГИН КОТОРЫЙ ОТТАЛКИВАЕТ ОТ РОДИТЕЛЬСКОГО ЖЛЕМЕНТА, ВРОДЕ ТАМ ДОЛЖНО БЫТЬ РЕШЕНИЕ С ОТСТУПАМИ КОТОРЫЕ НАЛЕЗАЮТ ДРУГ НА ДРУГА*/
-  /*box-sizing: border-box;
   display: flex;
-  align-items: center;
-  flex-direction: column;*/
-    
+  flex-direction: row;
+  justify-content: center;
 }
 

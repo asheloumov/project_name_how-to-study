@@ -1,13 +1,10 @@
 .two-columns__brief {
   width: 175px;
   border: blue 2px dotted;
-  box-sizing: border-box;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  align-items: flex-start;
   box-sizing: border-box;
-  display: flex;
   padding: 0;
   margin: 0 0 0;
   color: #2f80ed;

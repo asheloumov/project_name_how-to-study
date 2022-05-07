@@ -1,10 +1,7 @@
 .section-title {
   width: 60%;
   margin: 0 auto 0;
-  padding-top: 100px;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 0;
+  padding: 100px 0 0;
   /*padding: 100px auto 0; /*тоже не отступает почему то??? (раньше было 0 вверху)*/
   box-sizing: border-box;
   text-align: center;

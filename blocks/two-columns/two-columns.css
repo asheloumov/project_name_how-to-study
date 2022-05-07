@@ -1,13 +1,12 @@
 .two-columns {
   width: 80%;
   display: flex;
-  /*border: rgba(250, 50, 50, .4) 2px dotted;*/
-  background-color: rgba (250, 15, 15, .2);
   flex-direction: row;
   box-sizing: border-box;
   align-items: stretch;
   justify-content: space-between;
-  margin: 0 auto 0;
+  padding: 100px 0 0;
+  min-height: max-content;
 }
 
 
