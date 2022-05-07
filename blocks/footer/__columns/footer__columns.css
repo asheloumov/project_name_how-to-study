@@ -3,7 +3,7 @@
   flex-direction: row;
   margin: 0 auto 0;
   width: 90%;
-  min-height: 350px; /*кажется, что решение не совсем правильное, но по-другому не смог*/
+  min-height: inherit; /*кажется, что решение не совсем правильное, но по-другому не смог*/
   padding: 60px 0 40px;
   justify-content: space-between;
   box-sizing: border-box;

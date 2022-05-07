@@ -61,7 +61,7 @@
           <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Вспоминайте изученное - это позволяет соединить разрозненные порции памяти</p>
         </div>
-        <div class="cards__item crads__item_no-right-margin">
+        <div class="cards__item">
           <img src="images/cards-interliving.png" class="cards__image" alt="здесь должно быть изображение">
           <h3 class="cards__title">Интерливинг</h3>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
@@ -85,10 +85,9 @@
       <div class="video__iframes">
         <iframe src="https://www.youtube.com/embed/J_89IMS5gJQ" class="video__iframe" width="515" height="316"></iframe> <!--ссылки которые были указаны в брифе, при вставке, выдавали вместо видео - ошибку. Пришлось взять ссылки на видео из кода макета, не знаю, насколько это корректно. Свойство frameborder="0" пришлось удалить и затать отсуствие границ через CSS, т.к. валидатор ругался-->
         <iframe src="https://www.youtube.com/embed/0u3bccaRmmg" class="video__iframe video__iframe_reverse-margin" width="515" height="316"></iframe>
-        <!--добавить ещё свойств которые свойственны фрейму (типа полный экран и т.д. в соответсвие с макетом сайта (посмотреть что на сайте с видео можно делать и сделать также))-->
       </div>
     </section>
-
+    <!--конец блока video, начало блока oakley-->
     <section class="oakley">
       <div class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли</h2>
@@ -97,13 +96,13 @@
         </div>
       </div>
     </section>
-
+    <!--конец блока oakley, начало блока feynman-->
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-      <a href="#" class="feynman__link">Подробнее →</a>
+      <a href="https://lifehacker.ru/metod-fejnmana/" class="feynman__link">Подробнее →</a>
     </section>
-
+    <!--конец блока feynman, начало блока digits-->
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
       <h3 class="section-subtitle">Про учёбу и мозг</h3>
@@ -115,7 +114,7 @@
         <div class="table__cell">
           <h3 class="table__heading">2.1 миллиарда</h3>
           <p class="table__text">Число нуждающихся в повышении квалификации</p>
-          <p class="table__text">Всемирный Банк, 2017</p><!--Подсмотрел решение в макете сайта, сам не мог дойти, как без лишнего класса задать этот параграф)))-->
+          <p class="table__text">Всемирный Банк, 2017</p>
         </div>
         <div class="table__cell">
           <h3 class="table__heading">1000 терабайт</h3>
@@ -127,7 +126,7 @@
         </div>
         <div class="table__cell">
           <h3 class="table__heading">420 миллионов</h3>
-          <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p><!--В макете здесь тоже доп. параграф про Всемирный банк, но в брифе нет, потому - убрал-->
+          <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p><!--В макете сайта здесь тоже доп. параграф про Всемирный банк, но в брифе нет, потому - убрал-->
         </div>
         <div class="table__cell">
           <h3 class="table__heading">17–20 лет</h3>
@@ -143,7 +142,7 @@
         </div>
       </div>
     </section>
-
+    <!--конец блока digits, начало блока khan-->
     <section class="khan">
       <div class="khan__container">
         <h2 class="khan__author">Салман Хан</h2>
@@ -153,57 +152,55 @@
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img src="images/khan-book.jpg" alt="Здесь могло быть изображение" class="khan__book-pic">
-          <a href="#" class="khan__buy-link">Купить книгу →</a>
+          <a href="https://www.labirint.ru/books/483575/" class="khan__buy-link">Купить книгу →</a>
         </div>
-
       </div>
-
     </section>
-
+    <!--конец блока khan, начало блока kaufman-->
     <section class="kaufman">
-      <h2 class="section-title_theme_dark">Принципы обучения</h2>
-      <h3 class="section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+      <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+      <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
       <img src="images/triangle.svg" class="kaufman__triangle rotation" alt="Здесь могло быть вращающееся изображение">
-      <div class="table_theme_dark">
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">1</h3>
-          <p class="table__text_theme_dark">Выберите привлекательный проект.</p>
+      <div class="table table_theme_dark">
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">1</h3>
+          <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">2</h3>
-          <p class="table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">2</h3>
+          <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">3</h3>
-          <p class="table__text_theme_dark">Определите целевой уровень мастерства.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">3</h3>
+          <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">4</h3>
-          <p class="table__text_theme_dark">Разбейте навык на элементы.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">4</h3>
+          <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">5</h3>
-          <p class="table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">5</h3>
+          <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">6</h3>
-          <p class="table__text_theme_dark">Устраните препятствия для занятий.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">6</h3>
+          <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">7</h3>
-          <p class="table__text_theme_dark">Выделите специальное время для занятий.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">7</h3>
+          <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">8</h3>
-          <p class="table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">8</h3>
+          <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">9</h3>
-          <p class="table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">9</h3>
+          <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
         </div>
-        <div class="table__cell_theme_dark">
-          <h3 class="table__heading_theme_dark">10</h3>
-          <p class="table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
+        <div class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading table__heading_theme_dark">10</h3>
+          <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </div>
       </div>
     </section>
@@ -211,18 +208,18 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-     <div class="resourses__logo-zone">
-       <a href="#" class="resourses__link">
-         <img src="images/logo/resources-arzamas.svg" class="resorses__logo" alt="здесь должно быть изображение">
+     <div class="resources__logo-zone">
+       <a href="#" class="resources__link">
+         <img src="images/logo/resources-arzamas.svg" class="resources__logo" alt="здесь должно быть изображение">
        </a>
-       <a href="#" class="resourses__link">
-        <img src="images/logo/resources-n1.svg" class="resorses__logo" alt="здесь должно быть изображение">
+       <a href="#" class="resources__link">
+        <img src="images/logo/resources-n1.svg" class="resources__logo" alt="здесь должно быть изображение">
       </a>
-      <a href="#" class="resourses__link">
-        <img src="images/logo//resources-strelka.svg" class="resorses__logo" alt="здесь должно быть изображение">
+      <a href="#" class="resources__link">
+        <img src="images/logo//resources-strelka.svg" class="resources__logo" alt="здесь должно быть изображение">
       </a>
-      <a href="#" class="resourses__link">
-        <img src="images/logo/resources-polka.svg" class="resorses__logo" alt="здесь должно быть изображение">
+      <a href="#" class="resources__link">
+        <img src="images/logo/resources-polka.svg" class="resources__logo" alt="здесь должно быть изображение">
       </a>
      </div>
     </section>

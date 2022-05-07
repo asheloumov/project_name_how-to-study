@@ -2,8 +2,12 @@
   width: 80%;
   border: rgba(86, 16, 85, 0.4) 2px solid;
   box-sizing: border-box;
-  padding: 0;
+  padding: 100px 0 0;
   margin: 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 

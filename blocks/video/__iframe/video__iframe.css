@@ -6,9 +6,9 @@
   margin-left: auto;
   padding: 0;
   box-sizing: border-box;
-  /*position: absolute;
-  top: 60px;*/
-
 }
 
-
+.video__iframe:nth-of-type(2n) {
+  margin-right: auto;
+  margin-left: 0;
+}

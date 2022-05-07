@@ -1,11 +1,11 @@
 .section-title {
   width: 60%;
-  margin: 0 auto 0;
-  padding: 100px 0 0;
-  /*padding: 100px auto 0; /*тоже не отступает почему то??? (раньше было 0 вверху)*/
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bolder;
+  z-index: 1;
 }

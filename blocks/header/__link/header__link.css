@@ -7,9 +7,10 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity .2s linear;
 }
 
 .header__link:hover {
-  color: #472976;
-  text-decoration: underline;
+  opacity: .5 ;
+  cursor: pointer;
 }

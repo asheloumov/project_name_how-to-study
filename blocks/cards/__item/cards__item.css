@@ -1,18 +1,13 @@
 .cards__item {
   width: 240px; /*считал на калькуляторе, так и надо?*/
-  /*height: 462.52px; /*выставил по высоте, котооую браузер высчитал для первой карточки, так и надо?*/
   background-color: rgba(61, 61, 141, .1);
   display: inline-block;
-  margin-bottom: 0;
-  padding: 60px 0 60px;
-  /*border: rgba(250, 50, 50, .4) 2px solid;*/
-  margin-top: 0;
-  margin-right: 100px;
+  margin: 0 100px 0 0;
+  padding: 60px 0 0;
   box-sizing: border-box;
-  /*margin-left: 0; /*думал это исправит перескок третьей карточки в следующий ряд, но не исправило*/
   vertical-align: top;
 }
 
-.crads__item_no-right-margin {
+.cards__item:nth-of-type(3n) {
   margin-right: 0;
-}/*нужно это вынести в отдельный файл, видимо, и подумать над именем ожификатора, либо сделать это с псевдоклассом как в двух колонках сделано)
+}

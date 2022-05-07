@@ -1,14 +1,12 @@
 .kaufman {
-  padding: 0;
-  background-color: #1f1f1f; /*почему-то не работает. высота и ширина не помогли*/
-  /*background-image: url(images/two_again.png); !!! МБ ПОПРОБАВТЬ background-size: contain/cover*/
-  /*это не помогло сделать фон черным*/
-  /*width: 100%;
-  position: relative;*/
+  padding: 90px 0 90px;
+  background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
