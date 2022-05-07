@@ -1,0 +1,8 @@
+.footer__column-link {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  box-sizing: border-box;
+  padding: 10px 0 0;
+  color: white;
+}

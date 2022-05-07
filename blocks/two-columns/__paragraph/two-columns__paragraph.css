@@ -1,0 +1,9 @@
+.two-columns__paragraph {
+  padding: 0;
+  margin: 0 0 30px;
+  flex-wrap: nowrap;
+}
+
+.two-columns__paragraph:nth-of-type(3n) {
+  margin-bottom: 0;
+}

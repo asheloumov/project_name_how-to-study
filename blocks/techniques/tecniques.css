@@ -1,0 +1,21 @@
+#techniques {
+  width: 80%;
+  border: rgba(86, 16, 85, 0.4) 2px solid;
+  box-sizing: border-box;
+  padding: 0; /*отступ не отступается почему-то*/
+  margin: 0 auto 0; /*отступ не отступается почему-то*/
+  /*display: flex; /*хз зачем это вставил сюда*/
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
