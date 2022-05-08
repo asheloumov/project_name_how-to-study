@@ -1,8 +1,10 @@
 .resources {
   margin: 0;
   padding: 100px 0 0;
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  z-index: 0;
 }

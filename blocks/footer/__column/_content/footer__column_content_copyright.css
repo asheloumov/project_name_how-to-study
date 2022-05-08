@@ -1,11 +1,9 @@
 .footer__column_content_copyright {
-  background-color: antiquewhite;
   flex-basis: 711px;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }

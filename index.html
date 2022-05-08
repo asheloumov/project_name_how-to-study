@@ -6,22 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="images/triangle.svg">
     <title>Научиться учиться</title>
-    <!--<link rel="stylesheet" href="styles/normalize.css">-->
     <link rel="stylesheet" href="styles/styles.css">
-    <!--<link rel="stylesheet" href="blocks/header/header.css">-->
-    <!--<link rel="stylesheet" href="blocks/description/description.css">-->
-    <!--<link rel="stylesheet" href="blocks/two-columns/two-columns.css">-->
-    <!--<link rel="stylesheet" href="blocks/techniques/tecniques.css">-->
-    <!--<link rel="stylesheet" href="blocks/digits/digits.css">-->
-    <!--<link rel="stylesheet" href="blocks/kaufman/kaufman.css">-->
-    <!--<link rel="stylesheet" href="blocks/resourses/resourses.css">-->
-    <!--<link rel="stylesheet" href="blocks/footer/footer.css">-->
-    <!--<link rel="stylesheet" href="blocks/video/video.css">-->
-    <!--<link rel="stylesheet" href="blocks/oakley/oakley.css">-->
-    <!--<link rel="stylesheet" href="blocks/feynman/feynman.css">-->
-    <!--<link rel="stylesheet" href="blocks/khan/khan.css">-->
-    <!--<link rel="stylesheet" href="blocks/footer/__column-links/footer__column-links.css">-->
-    <!--<link rel="stylesheet" href="blocks/rotation/rotation.css">-->
 </head>
 <body class="page">
   <header class="header">
@@ -30,7 +15,7 @@
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a href="#techniques" class="header__link">Узнать →</a>
     </p>
-    <img src="images/two_again.png" class="header__main-illustration" alt="здесь должно быть изображение">
+    <img src="images/two_again.png" class="header__main-illustration" alt="здесь должно быть изображение - Опять двойка">
     <div class="header__square-pic rotation"></div>
   </header>
   <!--Конец блока header - начало основного блока Контент-->
@@ -100,7 +85,7 @@
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-      <a href="https://lifehacker.ru/metod-fejnmana/" class="feynman__link">Подробнее →</a>
+      <a href="https://lifehacker.ru/metod-fejnmana/" class="feynman__link"  target="_blank">Подробнее →</a>
     </section>
     <!--конец блока feynman, начало блока digits-->
     <section class="digits">
@@ -152,7 +137,7 @@
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img src="images/khan-book.jpg" alt="Здесь могло быть изображение" class="khan__book-pic">
-          <a href="https://www.labirint.ru/books/483575/" class="khan__buy-link">Купить книгу →</a>
+          <a href="https://www.labirint.ru/books/483575/" class="khan__buy-link" target="_blank">Купить книгу →</a>
         </div>
       </div>
     </section>
@@ -204,58 +189,53 @@
         </div>
       </div>
     </section>
-
+    <!--конец блока kaufman, начало блока resources-->
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
      <div class="resources__logo-zone">
-       <a href="#" class="resources__link">
-         <img src="images/logo/resources-arzamas.svg" class="resources__logo" alt="здесь должно быть изображение">
+       <a href="https://arzamas.academy/" class="resources__logo" target="_blank">
+         <img src="images/logo/resources-arzamas.svg" alt="здесь должно быть изображение">
        </a>
-       <a href="#" class="resources__link">
-        <img src="images/logo/resources-n1.svg" class="resources__logo" alt="здесь должно быть изображение">
+       <a href="https://nplus1.ru/" class="resources__logo" target="_blank">
+        <img src="images/logo/resources-n1.svg" alt="здесь должно быть изображение">
       </a>
-      <a href="#" class="resources__link">
-        <img src="images/logo//resources-strelka.svg" class="resources__logo" alt="здесь должно быть изображение">
+      <a href="https://strelka.com/ru/" class="resources__logo" target="_blank">
+        <img src="images/logo//resources-strelka.svg" alt="здесь должно быть изображение">
       </a>
-      <a href="#" class="resources__link">
-        <img src="images/logo/resources-polka.svg" class="resources__logo" alt="здесь должно быть изображение">
+      <a href="https://polka.academy/" class="resources__logo" target="_blank">
+        <img src="images/logo/resources-polka.svg" alt="здесь должно быть изображение">
       </a>
      </div>
     </section>
+    <!--конец блока resources-->
   </main>
-
-  <footer class="footer"> <!--Доделать структуру отсюда-->
+  <!--конец блока content, начало блока footer-->
+  <footer class="footer">
     <div class="footer__columns">
-      <div class="footer__column_content_copyright">
+      <div class="footer__column footer__column_content_copyright">
         <img src="images/logo_white.svg" class="logo logo__place_footer" alt="здесь должно быть изображение">
         <p class="footer__author">&copy;Виктор Абанькин</p>
       </div>
-      <div class="footer__column_content_info">
+      <div class="footer__column footer__column_content_info">
         <h2 class="footer__column-heading">О Практикуме</h2>
-        <section class="footer__column-links"><!--Тут валидатор ругается, что нет заголовка (но не ошибка, а предупреждение), не совсем понял, что ему нужно-->
-          <a href="#" class="footer__column-link">Главная</a>
-          <a href="#" class="footer__column-link">Концепции</a>
-          <a href="#" class="footer__column-link">Наставники</a>
-        </section>
+        <div class="footer__column-links">
+          <a href="https://practicum.yandex.ru/profile/web-plus/" class="footer__column-link" target="_blank">Главная</a>
+          <a href="#" class="footer__column-link" target="_blank">Концепции</a>
+          <a href="#" class="footer__column-link" target="_blank">Наставники</a>
+        </div>
       </div>
-
-      <div class="footer__column_content_social">
+      <div class="footer__column footer__column_content_social">
         <h2 class="footer__column-heading">Соцсети</h2>
         <div class="footer__column-links">
-          <a href="#" class="footer__column-link"><img src="images/facebook_white.svg" class="footer__social-icon" alt="здесь должно быть изображение"> Facebook</a>
-          <a href="#" class="footer__column-link"><img src="images/vk_white.svg" class="footer__social-icon" alt="здесь должно быть изображение"> Вконтакте</a>
-          <a href="#" class="footer__column-link"><img src="images/instagram_white.svg" class="footer__social-icon" alt="здесь должно быть изображение"> Instagram</a>
+          <a href="https://www.facebook.com/" class="footer__column-link" target="_blank"><img src="images/facebook_white.svg" class="footer__social-icon" alt="здесь должно быть изображение"> Facebook</a>
+          <a href="https://vk.com/yandex.praktikum" class="footer__column-link" target="_blank"><img src="images/vk_white.svg" class="footer__social-icon" alt="здесь должно быть изображение"> Вконтакте</a>
+          <a href="#" class="footer__column-link" target="_blank"><img src="images/instagram_white.svg" class="footer__social-icon" alt="здесь должно быть изображение"> Instagram</a>
         </div>
       </div>
     </div>
-
   </footer>
-
-
-
-
-
-
+  <!--конец блока footer-->
 </body>
+<!--конец блока page-->
 </html>

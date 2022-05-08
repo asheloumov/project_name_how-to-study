@@ -1,6 +1,5 @@
 .cards__item {
-  width: 240px; /*считал на калькуляторе, так и надо?*/
-  background-color: rgba(61, 61, 141, .1);
+  width: 240px;
   display: inline-block;
   margin: 0 100px 0 0;
   padding: 60px 0 0;

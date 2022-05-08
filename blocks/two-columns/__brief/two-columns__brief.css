@@ -1,11 +1,11 @@
 .two-columns__brief {
   width: 175px;
-  border: blue 2px dotted;
   font-size: 18px;
   line-height: 1.2;
-  font-weight: normal;
+  font-weight: 400;
   box-sizing: border-box;
   padding: 0;
   margin: 0 0 0;
   color: #2f80ed;
+  z-index: 1;
 }
